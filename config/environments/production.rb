@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+config.secret_token = "3cd043f8b3da4665c460c3b01b955920"
   # Code is not reloaded between requests.
   config.cache_classes = true
 

@@ -36,6 +36,7 @@ Rails.application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+  config.secret_token = "3cd043f8b3da4665c460c3b01b955920"
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
